@@ -1,11 +1,12 @@
 # Requirement 
-pip install modelscope transformers datasets peft
+pip install modelscope transformers datasets peft tensorboardX
 
-flash-attention安装 （目前不需要，还在尝试）
-https://zhuanlan.zhihu.com/p/666921274
+flash-attention安装
+pip install ninja
+pip install flash-attn --no-build-isolation
 
 # 参考版本
-pytorch2.1.2 python 3.10 cuda11.8
+pytorch2.5.1 python 3.12 cuda12.4
 
 # How ro Run the code
 
