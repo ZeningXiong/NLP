@@ -1,0 +1,18 @@
+{
+  "model_name": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+  "data_path": "./data/training_code.json",
+  "output_dir": "/root/autodl-tmp/model_outputs",
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.1,
+  "target_modules": "q_proj,v_proj,o_proj,v_proj",
+  "batch_size": 2,
+  "num_epochs": 3,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.01,
+  "max_length": 4096,
+  "log_steps": 10,
+  "save_strategy": "epoch",
+  "eval_strategy": "epoch",
+  "seed": 42
+}

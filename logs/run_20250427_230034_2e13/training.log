@@ -1,0 +1,9 @@
+2025-04-27 23:00:34,280 - INFO - Saved hyperparameters to ./logs\run_20250427_230034_2e13\hyperparameters.json
+2025-04-27 23:00:34,281 - INFO - Loading model: Qwen/Qwen2.5-Math-1.5B-Instruct
+2025-04-27 23:00:34,281 - INFO - Loading model from cache: /root/autodl-tmp/model/Qwen/Qwen2.5-Math-1.5B-Instruct
+2025-04-27 23:00:34,630 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-04-27 23:00:36,559 - INFO - Configuring LoRA...
+2025-04-27 23:00:36,645 - INFO - LoRA configuration applied successfully
+2025-04-27 23:00:36,655 - INFO - Initialized TensorBoard writer at ./logs\run_20250427_230034_2e13
+2025-04-27 23:00:36,655 - INFO - Loading dataset...
+2025-04-27 23:00:42,681 - INFO - Starting training...
